@@ -858,7 +858,8 @@ a cite {
 
 .layui-main {
 
-    margin: 0 auto
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 .layui-header {
