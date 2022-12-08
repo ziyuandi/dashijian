@@ -37,8 +37,9 @@ function xrimg(dt) {
         }
 
     } else {
-        $('.tx').hide().$('.tx-img').show()
-        $('.tx-info').hide().$('.tx-img').show()
+        $('.tx').hide()
+        $('.tx-img').show()
+        $('.tx-info').hide()
         $('.tx-img').attr('src', dt.user_pic)
     }
 
